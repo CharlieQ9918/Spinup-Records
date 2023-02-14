@@ -1,0 +1,52 @@
+ul {
+    list-style-type: none;
+    border-radius: 15px;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #207178;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 55px 130px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #174c4f;
+  }
+
+  body {background-color: #ffffff;}
+  
+
+a {
+font-size: 40px; 
+}
+
+h1 {
+  font-family: "comfortaa", sans-serif;
+}
+h2 {
+    font-family: "comfortaa", sans-serif;
+  }
+p {
+    font-family: "comfortaa", sans-serif;
+  }
+
+a {
+    font-family: "comfortaa", sans-serif;
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #207178;
+    color: white;
+  }

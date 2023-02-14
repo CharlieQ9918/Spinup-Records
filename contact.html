@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- This is where i linked my CSS and the bootstrap css -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<!-- This is the title of the webpage -->
+    <title>Spinup records</title>
+</head>
+<body>
+    <!-- this is the navigation the top of the page -->
+  <nav>    
+    <ul class="navigationbar">
+<ul>
+    <li><img src="My project-1.png"/></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Music.html">Music</a></li>
+    <li><a href="Merchendise.html">Merch</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+</ul>
+</nav>
+<!-- this is the form that the user can use to contact the team behind Spinup records for assistance, complaints, cancellations or general questions -->
+<form>
+  <section class="mb-4">
+
+    <!-- this code shows the title of this specific webpage, telling the user what the form is for -->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    
+    <p class="text-center w-responsive mx-auto mb-5">Any questions, quereys, worries? feel free to leave us a message and someone will be there to help you within a couple of hours.</p>
+
+    <div class="row">
+
+        
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                
+                <div class="row">
+
+                    <!-- this allows people to type in their name on the contact form -->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="name" class="">Your name</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                            
+                        </div>
+                    </div>
+                    
+
+                    <!-- this allows people to type in their email on their contact form so the support team can respond to them -->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="email" class="">Your email</label>
+                            <!-- this form has validation so that the user can only submit their question if they enter a correct email -->
+                            <input type="email" id="email" name="email" class="form-control">
+                            
+                        </div>
+                    </div>
+                    
+
+                </div>
+                
+
+                <!-- this allows the customer to tell in short what their querey is -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label for="subject" class="">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            
+                        </div>
+                    </div>
+                </div>
+                
+
+                
+                <div class="row">
+
+                    <!-- this allows to further expand on their question -->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <label for="message">Your message</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <!-- this allows the user to submit their question -->
+                <div class="text-center text-md-left">
+                    <button type ="submit">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </button>
+                </div>
+                <div class="status"></div>
+
+            </form>
+             
+
+        </div>
+        
+
+        
+        <div class="col-md-3 text-center">
+            <!-- these are to say where we are based, our phone number and contact email. -->
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Manchester, United Kingdom</p>
+                </li>
+                <br>
+                <br>
+                <br>
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>0161 9857621</p>
+                </li>
+                <br>
+                <br>
+                <br>
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>contact@spinuprecords.com</p>
+                </li>
+            </ul>
+        </div>
+        
+
+    </div>
+
+</section>
+  </form>
+<!-- this is the bootstrap javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+
+<footer class="fixed-bottom">
+    <p>Author: SPINUP RECORDS<br>
+        <a href="cqualter@spinuprecords.com">Contact</a></p>
+
+</footer>
+
+</html>
